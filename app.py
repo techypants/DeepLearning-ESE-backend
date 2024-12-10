@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from flask import Flask, request, jsonify
-
+from flask_cors import CORS
 # Load or Train Model and Data
 def load_or_train_model():
     try:
