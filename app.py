@@ -100,6 +100,7 @@ def match_closest_location(attributes, df, scaler, input_features):
 # Initialize Flask App
 app = Flask(__name__)
 
+CORS(app)
 # Load the model and data
 model_data = load_or_train_model()
 
