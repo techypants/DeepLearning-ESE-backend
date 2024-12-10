@@ -3,3 +3,4 @@ gunicorn==20.1.0
 numpy==1.24.0
 pandas==1.5.2
 scikit-learn==1.2.0
+werkzeug==2.2.3  # Add this line to lock Werkzeug to a compatible version
